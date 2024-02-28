@@ -13,7 +13,7 @@ import org.bukkit.craftbukkit.v1_20_R1.CraftWorld;
 public class CustomBiome1_20_R1_Mojmap extends CustomBiome {
 
     private final DedicatedServer dedicatedServer = ((CraftServer) Bukkit.getServer()).getServer();
-    private final Registry<Biome> registry = dedicatedServer.registries().compositeAccess().registryOrThrow(Registries.BIOME);;
+    private final Registry<Biome> registry = dedicatedServer.registries().compositeAccess().registryOrThrow(Registries.BIOME);
 
     @Override
     public String getBiomeAt(Location location) {
