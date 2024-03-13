@@ -6,7 +6,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class BiomeAPI {
 
-    private static final BiomeAPI api = new BiomeAPI();
+    private static BiomeAPI api;
     private CustomBiome customBiome;
 
     /**
@@ -17,6 +17,7 @@ public class BiomeAPI {
      */
     @Nullable
     public static String getBiomeAt(Location location) {
+        if (api == null) api = new BiomeAPI();
         return api.getBiome(location);
     }
 
