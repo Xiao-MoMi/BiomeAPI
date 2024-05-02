@@ -14,7 +14,7 @@ dependencies {
     implementation(project(":nms1_20_R2"))
     implementation(project(":nms1_20_R3"))
     implementation(project(mapOf("path" to ":nms1_20_R4", "configuration" to "reobf")))
-    implementation(project(mapOf("path" to ":mojmap1_20_R4")))
+    implementation(project(":mojmap_R1"))
     implementation(project(":mojmap1_18_R1"))
     implementation(project(":mojmap1_18_R2"))
     implementation(project(":mojmap1_19_R1"))

@@ -40,6 +40,7 @@ public class BiomeAPI {
             case "1.18.2" -> this.customBiome = new CustomBiome1_18_R2();
             case "1.18", "1.18.1" -> this.customBiome = new CustomBiome1_18_R1();
             case "1.17", "1.17.1" -> this.customBiome = new CustomBiome1_17_R1();
+            case "1.20.5-Mojmap", "1.20.6-Mojmap" -> this.customBiome = new CustomBiomeMojMapR1();
             case "1.20.3-Mojmap", "1.20.4-Mojmap" -> this.customBiome = new CustomBiome1_20_R3_Mojmap();
             case "1.20.2-Mojmap" -> this.customBiome = new CustomBiome1_20_R2_Mojmap();
             case "1.20-Mojmap", "1.20.1-Mojmap" -> this.customBiome = new CustomBiome1_20_R1_Mojmap();
