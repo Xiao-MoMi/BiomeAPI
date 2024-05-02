@@ -30,6 +30,7 @@ public class BiomeAPI {
     private void init() {
         String bukkitVersion = Bukkit.getServer().getBukkitVersion().split("-")[0];
         switch (bukkitVersion + (isMojMap() ? "-Mojmap" : "")) {
+            case "1.20.5", "1.20.6" -> this.customBiome = new CustomBiome1_20_R4();
             case "1.20.3", "1.20.4" -> this.customBiome = new CustomBiome1_20_R3();
             case "1.20.2" -> this.customBiome = new CustomBiome1_20_R2();
             case "1.20", "1.20.1" -> this.customBiome = new CustomBiome1_20_R1();
