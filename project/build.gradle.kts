@@ -1,8 +1,5 @@
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT")
-}
-
-dependencies {
     implementation(project(":common"))
     implementation(project(":nms1_17_R1"))
     implementation(project(":nms1_18_R1"))
