@@ -7,7 +7,7 @@ plugins {
 val projectVersion : String by project
 val projectGroup : String by project
 
-allprojects {
+subprojects {
 
     apply(plugin = "java")
     apply(plugin = "maven-publish")
